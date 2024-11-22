@@ -74,7 +74,7 @@ export default function Home() {
             <p className="text-sm py-4 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
                ipsum, dolor distinctio incidunt alias
                facilis fugit excepturi. Ab quae perspiciatis, 
-               maxime commodi a iure corporis accusamus amet consectetur non. Commodi.</p>
+               maxime commoddi a iure corporis accusamus amet consectetur non. Commodi.</p>
           </div>
 
           {/* services card */}
