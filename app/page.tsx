@@ -80,7 +80,7 @@ export default function Home() {
           {/* services card */}
           <div>
             {/* card1 */}
-            <div>
+            <div className="bg-yellow-300 text">
               <Image src={graphdesign}
                alt="graph designer"
                 width={100}
