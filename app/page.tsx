@@ -90,7 +90,7 @@ export default function Home() {
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
               accusamus explicabo sed. Officia, doloribus! Ipsa,
-               corporis architecto!</p>
+               corporis architectoooo!</p>
             </div>
 
             
