@@ -78,15 +78,17 @@ export default function Home() {
           </div>
 
           {/* services card */}
-          <div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
             {/* card1 */}
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
               <Image src={graphdesign}
                alt="graph designer"
                 width={100}
+                height={100}
+                className="inline"
             />
-            <h2 className="text-5xl py-10 font-bold opacity-60">Graphic Designing</h2>
-            <p className="text-sm py-2 text-gray-400 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
               accusamus explicabo sed. Officia, doloribus! Ipsa,
@@ -94,11 +96,37 @@ export default function Home() {
             </div>
 
             
-           {/* card1 */}
-           <div></div>
+           {/* card2 */}
+           <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
+              <Image src={graphdesign}
+               alt="graph designer"
+                width={100}
+                height={100}
+                className="inline"
+            />
+            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Quia dolores praesentium dolorum corrupti incidunt aliquam 
+               iste beatae! Nam, animi. Quod recusandae quibusdam 
+              accusamus explicabo sed. Officia, doloribus! Ipsa,
+               corporis architectoooo!</p>
+            </div>
 
-           {/* card1 */}
-           <div></div>
+           {/* card3 */}
+           <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
+              <Image src={graphdesign}
+               alt="graph designer"
+                width={100}
+                height={100}
+                className="inline"
+            />
+            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Quia dolores praesentium dolorum corrupti incidunt aliquam 
+               iste beatae! Nam, animi. Quod recusandae quibusdam 
+              accusamus explicabo sed. Officia, doloribus! Ipsa,
+               corporis architectoooo!</p>
+            </div>
 
 
 
