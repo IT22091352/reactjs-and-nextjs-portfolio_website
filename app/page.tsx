@@ -85,8 +85,8 @@ export default function Home() {
                alt="graph designer"
                 width={100}
             />
-            <h2 className="">Graphic Designing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <h2 className="text-5xl py-10 font-bold opacity-60">Graphic Designing</h2>
+            <p className="text-sm py-2 text-gray-400 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
               accusamus explicabo sed. Officia, doloribus! Ipsa,
