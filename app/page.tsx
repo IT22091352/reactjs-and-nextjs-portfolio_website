@@ -9,6 +9,11 @@ import { MdOutgoingMail } from "react-icons/md";
 //Image
 import profileImage from "../public/p2.png";
 import graphdesign from '../public/design.png';
+import webdev from '../public/code.png';
+import imag1 from '../public/web1.png';
+import imag2 from '../public/web2.png';
+import imag3 from '../public/web3.png';
+
 
 export default function Home() {
   return (
@@ -70,7 +75,7 @@ export default function Home() {
         {/* Services session */}
         <section>
           <div>
-            <h2>Services and Offers</h2>
+            <h2 className="text-5xl py-10 font-bold opacity-60">Services and Offers</h2>
             <p className="text-sm py-4 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
                ipsum, dolor distinctio incidunt alias
                facilis fugit excepturi. Ab quae perspiciatis, 
@@ -78,7 +83,7 @@ export default function Home() {
           </div>
 
           {/* services card */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+          <div >
             {/* card1 */}
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
               <Image src={graphdesign}
@@ -87,7 +92,7 @@ export default function Home() {
                 height={100}
                 className="inline"
             />
-            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <h2 className="text-2xl py-5 font-bold">Graphic Designing</h2>
             <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
@@ -98,13 +103,13 @@ export default function Home() {
             
            {/* card2 */}
            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
-              <Image src={graphdesign}
-               alt="graph designer"
+              <Image src={webdev}
+               alt="Web Developer"
                 width={100}
                 height={100}
                 className="inline"
             />
-            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <h2 className="text-2xl py-5 font-bold">Web Developer</h2>
             <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
@@ -120,18 +125,52 @@ export default function Home() {
                 height={100}
                 className="inline"
             />
-            <h2 className="text-2xl py-10 font-bold">Graphic Designing</h2>
+            <h2 className="text-2xl py-5 font-bold">Graphic Designing</h2>
             <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                Quia dolores praesentium dolorum corrupti incidunt aliquam 
                iste beatae! Nam, animi. Quod recusandae quibusdam 
               accusamus explicabo sed. Officia, doloribus! Ipsa,
                corporis architectoooo!</p>
             </div>
+          </div>
+        </section>
 
 
+        {/* my work */}
+        <section>
+          <div>
+            <h2 className="text-5xl py-10 font-bold opacity-60" >Portfolio</h2>
+            <p className="text-sm py-4 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+               ipsum, dolor distinctio incidunt alias
+               facilis fugit excepturi. Ab quae perspiciatis, 
+               maxime commodi a iure corporis accusamus amet consectetur non. Commodi.</p>
+          </div>
+
+          {/* images */}
+          <div className="flex-col gap-10 p-10">
+            <Image src={imag1} alt="imag1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={imag2} alt="imag2"layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={imag3} alt="imag3"layout="responsive" className="rounded-lg object-cover"/>
 
           </div>
         </section>
+
+        {/* footer */}
+        <div className="border-t-2 border-black text-sm opacity-60 flex flex-col  gap-5 items-center justify-center py-10">
+          <h3 className="texr-base mb-2">Contact Us</h3>
+          <p className="opacity-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eaque omnis reiciendis, ab totam dolorem quis odit sed 
+            ullam incidunt corporis illo maiores provident fugiat nemo
+             amet? Tenetur dolores officiis dolore.</p>
+        </div>
+
+        <div>
+        <div className="text-4xl flex justify-center gap-16 text-gray-600">
+            <a href="https://www.linkedin.com/in/chathuka-dilakshana-006315284/" ><FaLinkedin /></a>
+            <a href="https://github.com/IT22091352" ><FaGithubSquare /></a>
+            <a href="chathukadilakshana33@gmail.com" ><MdOutgoingMail /></a>
+          </div>
+        </div>
 
 
 
