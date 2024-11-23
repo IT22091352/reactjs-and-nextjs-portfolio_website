@@ -50,19 +50,17 @@ export default function Home() {
                   onClick={() => setdarkmode(!darkmode)}
                   className="cursor-pointer text-3xl mx-5"
                 />
-              </li>              <li><a href="https://drive.google.com/file/d/16yY3D4lm8wYl70TnbJG8JQHVk6Nuowtj/view?usp=sharing" className="bg-yellow-400 text-black px-4 py-2 border-none rounded-md" download={"Resume"}>Resume</a></li>
+              </li>              
+              <li><a href="https://drive.google.com/file/d/16yY3D4lm8wYl70TnbJG8JQHVk6Nuowtj/view?usp=sharing" className="bg-yellow-400 text-black px-4 py-2 border-none rounded-md" download={"Resume"}>Resume</a></li>
             </ul>
           </nav>
 
           {/* hero */}
           
           <div className="text-center p-10">
-            <h1 className="text-5xl font-bold text-yellow-400">My Projects</h1>
-            <h3 className="text-2xl py-4">Mobile App and Website Developer</h3>
-            <p className="text-sm py-4 text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-               ipsum, dolor distinctio incidunt alias
-               facilis fugit excepturi. Ab quae perspiciatis, 
-               maxime commodi a iure corporis accusamus amet consectetur non. Commodi.</p>
+            <h1 className="text-5xl font-bold text-yellow-400">Solo Traveller</h1>
+            <h3 className="text-2xl py-4">Descover </h3>
+            <p className="text-sm py-4 text-black dark:text-white">A passionate third-year BSc (Hons) student at SLIIT, specializing in Information Technology. I'm on a mission to apply and expand my IT skills in a vibrant professional setting. Enthusiastic about embracing diverse roles and collaborating with industry experts, I'm ready to make a meaningful impact.</p>
 
           </div>
 
