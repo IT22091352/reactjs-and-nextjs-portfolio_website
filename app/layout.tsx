@@ -33,3 +33,54 @@ export default function RootLayout({
     </html>
   );
 }
+
+{/* <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag2}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag2}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag2}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag3}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag1}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+<div className="basis-1/3 flex-1">
+  <Image
+    src={imag2}
+    alt="web images"
+    className="rounded-lg object-cover w-full h-full"
+    layout="responsive"
+  />
+</div>
+</div> */}
