@@ -12,12 +12,16 @@ import { motion } from "framer-motion";
 
 
 //Image
-import profileImage from "../public/p2.png";
+import profileImage from "../public/p2.jpeg";
 import graphdesign from '../public/design.png';
 import webdev from '../public/code.png';
 import imag1 from '../public/web1.png';
-import imag2 from '../public/web2.png';
-import imag3 from '../public/web3.png';
+import imag2 from '../public/web2.jpeg';
+import imag3 from '../public/web3.jpeg';
+import imag4 from '../public/web4.png';
+import imag5 from '../public/web5.png';
+
+
 
 //Hook
 import { useState } from "react";
@@ -58,9 +62,9 @@ export default function Home() {
           {/* hero */}
           
           <div className="text-center p-10">
-            <h1 className="text-5xl font-bold text-yellow-400">Solo Traveller</h1>
-            <h3 className="text-2xl py-4">Descover </h3>
-            <p className="text-sm py-4 text-black dark:text-white">A passionate third-year BSc (Hons) student at SLIIT, specializing in Information Technology. I'm on a mission to apply and expand my IT skills in a vibrant professional setting. Enthusiastic about embracing diverse roles and collaborating with industry experts, I'm ready to make a meaningful impact.</p>
+            <h1 className="text-5xl font-bold text-yellow-400">Chathuka Dilakshana</h1>
+            <h3 className="text-2xl py-4 frot-bold">Undergraduate at SLIIT | UI/UX Designer | Web Developer | AI/ML Enthusias  </h3>
+            <p className="text-1xl py-4  text-black dark:text-white">A passionate third-year BSc (Hons) student at SLIIT, specializing in Information Technology. I'm on a mission to apply and expand my IT skills in a vibrant professional setting. Enthusiastic about embracing diverse roles and collaborating with industry experts, I'm ready to make a meaningful impact.</p>
 
           </div>
 
@@ -82,6 +86,7 @@ export default function Home() {
             alt={"profile picture"} 
             layout="fill" 
             objectFit="cover"
+            className="rounded-full"
             />
           </div>
           </motion.div>
@@ -100,12 +105,9 @@ export default function Home() {
         height={100}
         className="inline"
       />
-      <h2 className="text-xl md:text-2xl py-5 font-bold">Graphic Designing</h2>
+      <h2 className="text-xl md:text-2xl py-3 font-bold">Social Media Post Designing</h2>
       <p className="text-sm md:text-base py-2 text-gray-800 leading-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolores
-        praesentium dolorum corrupti incidunt aliquam iste beatae! Nam, animi.
-        Quod recusandae quibusdam accusamus explicabo sed. Officia, doloribus!
-        Ipsa, corporis architectoooo!
+      Crafting attractive graphics for Instagram, LinkedIn, and Facebook using Canva. Dedicated to making your social media presence eye-catching and professional.
       </p>
     </div>
   </motion.div>
@@ -120,12 +122,9 @@ export default function Home() {
         height={100}
         className="inline"
       />
-      <h2 className="text-xl md:text-2xl py-5 font-bold">Web Developer</h2>
+      <h2 className="text-xl md:text-2xl py-3 font-bold">UI/UX Designing</h2>
       <p className="text-sm md:text-base py-2 text-gray-800 leading-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolores
-        praesentium dolorum corrupti incidunt aliquam iste beatae! Nam, animi.
-        Quod recusandae quibusdam accusamus explicabo sed. Officia, doloribus!
-        Ipsa, corporis architectoooo!
+      Passionate about creating intuitive, visually appealing interfaces. Specializing in transforming complex ideas into simple, user-friendly designs that enhance user experience.
       </p>
     </div>
   </motion.div>
@@ -140,12 +139,10 @@ export default function Home() {
         height={100}
         className="inline"
       />
-      <h2 className="text-xl md:text-2xl py-5 font-bold">Graphic Designing</h2>
+      <h2 className="text-xl md:text-2xl py-3 font-bold">
+      Web/Mobile Application Designing</h2>
       <p className="text-sm md:text-base py-2 text-gray-800 leading-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia dolores
-        praesentium dolorum corrupti incidunt aliquam iste beatae! Nam, animi.
-        Quod recusandae quibusdam accusamus explicabo sed. Officia, doloribus!
-        Ipsa, corporis architectoooo!
+      Building responsive, high-performance web and mobile applications tailored to your needs.Focus on functionality and user experience to ensure efficiency and ease of use.
       </p>
     </div>
   </motion.div>
@@ -157,10 +154,8 @@ export default function Home() {
 <section>
   <div>
     <h2 className="text-5xl py-10 font-bold opacity-60">Portfolio</h2>
-    <p className="text-sm py-4 text-gray-400">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-      ipsum, dolor distinctio incidunt alias facilis fugit excepturi. Ab quae
-      perspiciatis, maxime commodi a iure corporis accusamus amet consectetur non. Commodi.
+    <p className="text-sm py-4 ">
+    Dive into a collection of my creative and technical projects, showcasing my journey as a UI/UX Designer, Web Developer, and AI/ML Enthusiast. From visually captivating designs to functional web and mobile applications, each project reflects my passion for innovation and user-centric solutions
     </p>
   </div>
 
@@ -211,7 +206,7 @@ export default function Home() {
       whileTap={{ scale: 0.8, rotate: -10, borderRadius: "100%" }}
     >
       <Image
-        src={imag3}
+        src={imag5}
         alt="Image 4"
         layout="responsive"
         className="rounded-lg object-cover"
@@ -224,7 +219,7 @@ export default function Home() {
       whileTap={{ scale: 0.8, rotate: -10, borderRadius: "100%" }}
     >
       <Image
-        src={imag3}
+        src={imag4}
         alt="Image 5"
         layout="responsive"
         className="rounded-lg object-cover"
@@ -234,23 +229,20 @@ export default function Home() {
 </section>
 
         {/* footer */}
-        <div className="border-t-2 border-black dark:border-white text-sm opacity-60 flex flex-col  gap-5 items-center justify-center py-10">
-          <h3 className="texr-base mb-2">Contact Us</h3>
-          <p className="opacity-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Eaque omnis reiciendis, ab totam dolorem quis odit sed 
-            ullam incidunt corporis illo maiores provident fugiat nemo
-             amet? Tenetur dolores officiis dolore.</p>
+        <div className="border-t-2 border-black dark:border-white text-sm  flex flex-col  gap-5 items-center justify-center py-10">
+          <h3 className="texr-base mb-2 text-4xl">Contact Us</h3>
+          <p className="text-1xl py-2  text-black text-center dark:text-white">Have a project in mind or looking for collaboration? <br></br>Feel free to reach out! Whether it’s a design idea, development need, or simply a chance to share insights,<br></br> I’m eager to connect and bring ideas to life together.</p>
         </div>
 
         <div>
-        <div className="text-4xl flex justify-center gap-16 text-gray-600">
+        <div className="text-4xl pb-5 flex justify-center gap-16">
             <a href="https://www.linkedin.com/in/chathuka-dilakshana-006315284/" ><FaLinkedin /></a>
             <a href="https://github.com/IT22091352" ><FaGithubSquare /></a>
             <a href="chathukadilakshana33@gmail.com" ><MdOutgoingMail /></a>
           </div>
         </div>
 
-        
+     
 
         
       </main>     
