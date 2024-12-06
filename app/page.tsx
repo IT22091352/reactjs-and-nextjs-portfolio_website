@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
 
-//framer
+//framerd
 import { motion } from "framer-motion";
 
 
